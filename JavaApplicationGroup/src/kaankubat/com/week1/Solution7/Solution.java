@@ -10,15 +10,15 @@ public class Solution {
     public static void sumOfDigit() {
         Scanner kb = new Scanner(System.in);
 
-        int conter = 0;
+        int counter = 0;
 
         System.out.println("Enter a number :");
         int num = kb.nextInt();
 
         while (num > 0) {
             num /= 10;
-            conter++;
+            counter++;
         }
-        System.out.println("Sum of digit :" + conter);
+        System.out.println("Sum of digit :" + counter);
     }
 }
